@@ -1,0 +1,377 @@
+/* Estilização geral e de tags */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 900px;
+    background-color: #4B4B4B;
+    position: relative;
+    z-index: 0;
+}
+
+
+
+/* Header */
+.header {
+    width: 100%;
+    height: 63px;
+    background-color: #FFF200;
+    position: fixed;
+}
+
+.header__nav__logo {
+    width: 120px;
+}
+
+
+
+/* Section Saldo */
+.saldo {
+    width: 283px;
+    height: 169px;
+    background: #3D3D3D;
+    margin-top: 3.2rem;
+    position: absolute;
+    z-index: -1;
+}
+
+.saldo__titulo {
+    color: #FFF;
+    font-family: Montserrat, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.saldo__qtdSaldo {
+    width: 100%;
+    gap: 10px;
+}
+
+.saldo__qtdSaldo>.saldo__qtdSaldo__qtd {
+    color: #32FF7E;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.saldo__qtdSaldo>.saldo__qtdSaldo__eyeball {
+    width: 12px;
+    height: 12px;
+    background: url("../images/Olho.png") #3D3D3D 50% / contain no-repeat;
+}
+
+.saldo__saldo {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+
+/* H2 */
+.titulo_menuFuncionalidade {
+    display: none;
+}
+
+
+
+/* Section Funcionalidades */
+.menuFuncionalidades {
+    width: 283px;
+    height: 169px;
+    background: #3D3D3D;
+    margin-top: 16rem;
+    position: absolute;
+    z-index: -1;
+}
+
+.menuFuncionalidades__icones {
+    width: 35px;
+    height: 35px;
+    background-color: #7158E2;
+    border-radius: 35px;
+}
+
+.menuFuncionalidades__tituloIcones {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.menuFuncionalidades__icones__imagens {
+    width: 20px;
+    height: 20px;
+}
+
+
+
+/* Section Reserva */
+.reservaEmergencia {
+    width: 283px;
+    height: 200px;
+    margin-top: 29rem;
+    position: absolute;
+    z-index: -1;
+}
+
+.reservaEmergencia__header {
+    width: 283px;
+    height: 110px;
+    background: #3D3D3D;
+}
+
+.reservaEmergencia__header__titulo {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.reservaEmergencia_header__saldoEmergencia {
+    color: #32FF7E;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.reservaEmergencia__footer {
+    width: 283px;
+    height: 50px;
+    background: #3D3D3D;
+}
+
+.reservaEmergencia__footer>.reservaEmergencia__footer__btn {
+    text-decoration: none;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+
+/* Section Contrate Serviços */
+.contrateServicos {
+    width: 283px;
+    height: 200px;
+    margin-top: 41.7rem;
+    position: absolute;
+    z-index: -1;
+}
+
+.contrateServicos__header {
+    width: 283px;
+    height: 110px;
+    background: #3D3D3D;
+}
+
+.contrateServicos__header__titulo {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.contrateServicos__footer {
+    width: 283px;
+    height: 50px;
+    background: #3D3D3D;
+}
+
+.contrateServicos__footer>.contrateServicos__footer__btn {
+    text-decoration: none;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+
+/* Footer */
+.footer {
+    width: 100%;
+    height: 50px;
+    background-color: #FFF200;
+    position: fixed;
+    bottom: 0;
+}
+
+.footer__icones {
+    width: 100%;
+}
+
+.footer__icones_imagens {
+    width: 28px;
+}
+
+.footer_centralIcon {
+    position: relative;
+    top: -10px;
+    background-color: #FFF200;
+    border-radius: 50%;
+    padding: 0.5rem;
+}
+
+.footer__centralIcon__pix {
+    width: 35px;
+}
+
+
+
+/* Responsividade em telas >992px e >1400*/
+@media (min-width: 992px) {
+    body {
+        height: 100vh;
+        background-color: #4B4B4B;
+        position: relative;
+        z-index: 0;
+    }
+
+
+
+    /* Section Saldo */
+    .saldo {
+        width: 400px;
+        height: 200px;
+        background: #3D3D3D;
+        margin-top: 4rem;
+        position: absolute;
+        z-index: -1;
+    }
+
+    .saldo__titulo {
+        color: #FFF;
+        font-family: Montserrat, sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .saldo__qtdSaldo>.saldo__qtdSaldo__qtd {
+        color: #32FF7E;
+        font-family: Montserrat;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .saldo__qtdSaldo>.saldo__qtdSaldo__eyeball {
+        width: 15px;
+        height: 15px;
+        background: url("../images/eyeball.png") #3D3D3D 50% / contain no-repeat;
+    }
+
+    .saldo__saldo {
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+
+
+    /* H2 */
+    .titulo_menuFuncionalidade{
+        display: block;
+        margin-top: 20rem;
+        color: white;
+    }
+
+
+
+    /* Section Funcionalidades */
+    .menuFuncionalidades {
+        width: 800px;
+        height: 200px;
+        background: #3D3D3D;
+        margin-top: 24rem;
+        position: absolute;
+        z-index: -1;
+    }
+
+    .menuFuncionalidades__icones {
+        width: 60px;
+        height: 60px;
+        background-color: #7158E2;
+        border-radius: 60px;
+    }
+
+    .menuFuncionalidades__tituloIcones {
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin-top: 8px;
+    }
+
+    .menuFuncionalidades__icones__imagens {
+        width: 30px;
+        height: 30px;
+    }
+
+
+
+    /* Section Reserva */
+    .reservaEmergencia {
+        display: none;
+    }
+
+
+
+    /* Section Contrate Serviços */
+    .contrateServicos {
+        display: none;
+    }
+}
+
+@media (min-width: 1400px) {
+    .titulo_menuFuncionalidade{
+        display: block;
+        margin-top: 23rem;
+        color: white;
+    }
+
+
+
+    /* Section Funcionalidades */
+    .menuFuncionalidades {
+        width: 800px;
+        height: 200px;
+        background: #3D3D3D;
+        margin-top: 27rem;
+        position: absolute;
+        z-index: -1;
+    }
+}
