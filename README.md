@@ -56,10 +56,11 @@ Ao abrir `dashboard.html`, você será recebido com o painel principal onde voc�
 ## Capturas de Tela
 
 ### Dashboard Mobile
-![Dashboard Mobile](https://github.com/D1MELLO/Projeto_Fintech/assets/99542178/0a633ada-2d83-4e9f-bbd2-b16e550ee9ff)
+![Dashboard Mobile](https://github.com/D1MELLO/Projeto-Fintech/assets/99542178/0ef6bcac-4dd3-4537-babc-a14956aa47d8)
+
 
 ### Dashboard Desktop
-![Dashboard Desktop](https://github.com/D1MELLO/Projeto_Fintech/assets/99542178/54d85482-e194-42b7-908e-a37cce4f683d)
+![Dashboard Desktop](https://github.com/D1MELLO/Projeto-Fintech/assets/99542178/68230a73-4098-46aa-8416-53eabeb09c08)
 
 
 ## Contato
